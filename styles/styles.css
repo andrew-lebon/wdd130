@@ -1,3 +1,9 @@
+:root {
+    background-color: azure;
+    border: 2px salmon;
+    margin-bottom: 3px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
