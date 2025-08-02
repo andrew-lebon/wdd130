@@ -286,36 +286,3 @@ footer {
 .socialmedia a {
   text-decoration: none;
 }
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .contact-header,
-  .contact-info-cards,
-  .employees-grid,
-  .footer-info {
-    flex-direction: column;
-  }
-
-  .hero article {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero article p,
-  .hero article img {
-    max-width: 100%;
-  }
-
-  .info-cards,
-  .info-footer {
-    flex-direction: column;
-  }
-
-  .employee-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .employee-box.location-box .map-embed {
-    margin: 10px auto 0 auto;
-  }
-}
