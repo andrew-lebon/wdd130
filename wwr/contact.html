@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="contact.css"/>
+  <meta name="description" content="Contact Us Page" />
+  <meta name="author" content="Andrew Lebon" />
+</head>
+
+<body>
+  <header>
+    <img src="wwr-imgs/wwr-logo.jpg" alt="Rafting Company Logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-header">
+      <div class="header-text">
+        <h2>Contact Us</h2>
+        <p>
+          We would love to hear from you!<br />
+          Email or call!
+        </p>
+      </div>
+      <div class="header-image">
+        <img src="wwr-imgs/title-photo.jpg" alt="Contact Us Page Image" />
+      </div>
+    </section>
+
+    <section class="contact-info-cards">
+      <div class="card">
+        <h3>Scheduling</h3>
+        <p>
+          Phone number: (999)-999-9999<br />
+          Email: whiteriverrafting@gmail.com
+        </p>
+      </div>
+      <div class="card">
+        <h3>Customer Service</h3>
+        <p>
+          Phone number: (999)-999-9999<br />
+          Email: customerrafting@gmail.com
+        </p>
+      </div>
+    </section>
+
+    <section class="employees-section">
+      <h2>Employees</h2>
+      <div class="employees-grid">
+        <div class="employee-box location-box">
+          <div>Location</div>
+          <div class="map-embed"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12952.923562898668!2d-111.47291066914069!3d35.74512932744955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1754157045178!5m2!1sen!2sus" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+        <div class="employee-box">
+          <img src="wwr-imgs/Guide-1.jpg" alt="Guide 1" />
+          <div>Guide</div>
+        </div>
+        <div class="employee-box">
+          <img src="wwr-imgs/Guide-2.jpg" alt="Guide 2" />
+          <div>Guide</div>
+        </div>
+        <div class="employee-box">
+          <img src="wwr-imgs/Senior-Guide.avif" alt="Senior Guide" />
+          <div>Senior Guide</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-info">
+      <div class="more-info">
+        <h3>More Info</h3>
+        <ul>
+          <li>General Inquiry</li>
+          <li>Reservation Questions</li>
+          <li>Website Suggestions</li>
+        </ul>
+      </div>
+      <div class="newsletter-signup">
+        <h3>Keep Up To Date With Us</h3>
+        <form action="#" method="post" class="contact-form">
+          <label for="name">User Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">User Email Address</label>
+          <input type="email" id="email" name="email" required />
+
+          <fieldset>
+            <label><input type="radio" name="purpose" value="general" required /> General Inquiry</label><br />
+            <label><input type="radio" name="purpose" value="reservation" /> Reservation Question</label><br />
+            <label><input type="radio" name="purpose" value="suggestion" /> Website Suggestion</label>
+          </fieldset>
+
+          <label for="message">Send Us a Message!</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <label class="checkbox">
+            <input type="checkbox" name="newsletter" />
+            Please subscribe me to the monthly newsletter
+          </label>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="socialmedia">
+      <a href="https://instagram.com">
+        <img src="wwr-imgs/instagram.webp" alt="Instagram" />
+      </a>
+      <a href="https://tiktok.com">
+        <img src="wwr-imgs/tik_tok.webp" alt="TikTok" />
+      </a>
+      <a href="https://facebook.com">
+        <img src="wwr-imgs/Facebook.webp" alt="Facebook" />
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
