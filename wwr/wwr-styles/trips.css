@@ -1,0 +1,163 @@
+:root {
+    --primary-color: #2DE1FC;
+    --secondary-color: #2274A5;
+    --accent1-color: #000000;
+    --accent2-color: #729B79;
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Noto Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header {
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+header img {
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 20px 30px;
+    border: 2px solid black;
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+header,
+main,
+footer {
+    width: 860px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+.trips-hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e0f7fa;
+}
+
+.trips-hero h1 {
+    font-size: 2.5rem;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.trips-hero p {
+    font-size: 1.1rem;
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* Grid Layout for Trips */
+.trip-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.trip-card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: #fdfdfd;
+    transition: transform 0.3s;
+}
+
+.trip-card:hover {
+    transform: scale(1.02);
+}
+
+.trip-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+}
+
+.trip-card h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.trip-card p {
+    font-family: var(--body-font);
+    font-size: 1rem;
+    color: var(--accent1-color);
+}
+
+/* Equipment Section */
+.equipment {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.equipment h2 {
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: left;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.equipment-grid h3 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.equipment-grid p {
+    font-family: var(--body-font);
+    font-size: 1rem;
+}
