@@ -47,6 +47,14 @@ nav ul li a {
   font-family: var(--heading-font);
   font-weight: 500;
 }
+
+header,
+main,
+footer {
+    width: 860px;
+    margin: 0 auto;
+}
+
 .contact-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -194,28 +202,21 @@ nav ul li a {
 .contact-form button:hover {
   background-color: var(--secondary-color);
 }
+
 footer {
-  background-color: var(--secondary-color);
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 .socialmedia img {
-  width: 30px;
-  margin: 0 10px;
+    width: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
 }
-@media (max-width: 768px) {
-  .contact-header {
-    grid-template-columns: 1fr;
-  }
 
-  .contact-info-cards {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-info {
-    grid-template-columns: 1fr;
-  }
+.socialmedia img:hover {
+    transform: scale(1.1);
 }
