@@ -1,4 +1,3 @@
-/* Global Styles */
 :root {
     --primary-color: #2DE1FC;
     --secondary-color: #2274A5;
@@ -28,7 +27,6 @@ ul {
     list-style: none;
 }
 
-/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -60,7 +58,6 @@ nav ul li a:hover {
     color: white;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
 }
@@ -82,19 +79,16 @@ nav ul li a:hover {
     font-family: var(--heading-font);
 }
 
-/* Main Layout */
 main {
     width: 860px;
     margin: 0 auto;
     padding: 40px;
 }
 
-/* Section Styles */
 section {
     margin-bottom: 60px;
 }
 
-/* Newsletter Section */
 .newsletter {
     background-color: var(--secondary-color);
     color: white;
@@ -129,7 +123,6 @@ section {
     background-color: var(--secondary-color);
 }
 
-/* Call to Action (CTA) Section */
 .cta {
     text-align: center;
 }
@@ -159,7 +152,6 @@ section {
     background-color: var(--secondary-color);
 }
 
-/* Trip Cards Layout */
 .trip-list {
     display: flex;
     gap: 20px;
@@ -192,7 +184,6 @@ section {
     color: var(--accent1-color);
 }
 
-/* Equipment Section */
 .equipment {
     text-align: center;
 }
@@ -222,7 +213,6 @@ section {
     color: var(--accent1-color);
 }
 
-/* Contact Page Styles */
 .contact-header {
     display: flex;
     justify-content: space-between;
@@ -281,7 +271,6 @@ section {
     font-size: 1rem;
 }
 
-/* Employee Section Styles */
 .employees-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -299,7 +288,7 @@ section {
 
 .employee-box img {
     width: 100%;
-    height: 200px; /* Set a fixed height for images to ensure consistency */
+    height: 200px; 
     object-fit: cover;
     border-radius: 8px;
 }
@@ -310,22 +299,20 @@ section {
     margin-top: 10px;
 }
 
-/* Senior Guide Specific Styles - Same as the regular guide box */
 .employee-box.senior-guide {
-    background-color: var(--secondary-color); /* To distinguish the senior guide slightly */
+    background-color: var(--secondary-color); 
     color: white;
 }
 
 .employee-box.senior-guide img {
-    height: 220px; /* Make the senior guide image slightly larger */
+    height: 220px; 
 }
 
 .employee-box.senior-guide div {
     font-size: 1.2rem;
-    color: var(--primary-color); /* Make the text color stand out */
+    color: var(--primary-color); 
 }
 
-/* Form Styles */
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -356,7 +343,6 @@ section {
     background-color: var(--secondary-color);
 }
 
-/* Google Map Embed - Fix Overhang */
 .map-embed iframe {
     width: 100%;
     height: 400px;
@@ -364,7 +350,6 @@ section {
     box-sizing: border-box;
 }
 
-/* Footer Styles */
 footer {
     background-color: var(--secondary-color);
     color: white;
